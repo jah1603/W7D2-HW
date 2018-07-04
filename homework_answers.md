@@ -4,7 +4,13 @@
 
 1. What does the ___word___ 'polymorphism' mean?
 
+It originates from Greek. The first part, "poly" means "many" and the second part means change or shape.
+
 2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+
+It means that different data types can use the same interface. In practice this lets a given method perform different actions depending on what it acts upon.
+
+For instance, a user could make a program with many musical instruments each having its own method called Play(). This method could be called on each instrument (e.g. Piano.play = strike keys with hand) and it would produce the correct result.
 
 3. What can we use to implement polymorphism in Java?
 
